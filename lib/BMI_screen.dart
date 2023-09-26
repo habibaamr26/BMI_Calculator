@@ -231,6 +231,7 @@ class _BMIState extends State<BMI> {
                                   backgroundColor: Colors.teal,
                                   onPressed: () {
                                     setState(() {
+                                      if(weight>0)
                                       weight--;
                                     });
                                   },
@@ -292,7 +293,8 @@ class _BMIState extends State<BMI> {
                                   backgroundColor: Colors.teal,
                                   onPressed: () {
                                     setState(() {
-                                      age--;
+                                       if(age>0)
+                                         age--;
                                     });
                                   },
                                   child: Icon(Icons.remove),
