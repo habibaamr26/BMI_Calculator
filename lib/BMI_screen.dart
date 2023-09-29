@@ -213,7 +213,7 @@ class _BMIState extends State<BMI> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 FloatingActionButton(
-                                  heroTag: "btn4",
+                                  heroTag: "btn4",                                       // give to every floating Button to avoid Confusion
                                   backgroundColor: Colors.teal,
                                   onPressed: () {
                                     setState(() {
